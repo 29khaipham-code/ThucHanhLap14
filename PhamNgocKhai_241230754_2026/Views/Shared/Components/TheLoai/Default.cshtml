@@ -1,0 +1,6 @@
+﻿@model IEnumerable<PhamNgocKhai_241230754_2026.Models.TheLoai>
+
+@foreach(var item in Model)
+{
+    <li class="loc-the-loai" data-id="@item.MaTl"><a href="#">@item.TenTl</a></li>
+}
